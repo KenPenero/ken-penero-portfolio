@@ -96,6 +96,17 @@ window.SITE = {
       image: "assets/certs/emerging-it-innovations.jpg",
       badge: "assets/certs/emerging-it-innovations-badge.png",
       verifyUrl: ""                     // paste the link the QR code opens
+    },
+    {
+      id: "ai-tools-101-gemini",
+      title: "AI Tools 101: How to Use Google Gemini Like a Pro",
+      type: "Certificate of Participation",
+      issuer: "UpskillTechPH Training Services",
+      date: "2026-08-22",
+      topic: "AI",
+      credentialId: "d3c9b9d513acdbaa85f05e650ba9116d",
+      image: "assets/certs/ai-tools-101-gemini.jpg",
+      verifyUrl: ""                     // paste the link the QR code opens
     }
   ],
 
@@ -195,6 +206,27 @@ window.SITE = {
         "assets/seminars/it-innovations-call-1.jpg",
         "assets/seminars/it-innovations-call-2.jpg",
         "assets/seminars/it-innovations-call-3.jpg"
+      ],
+      link: ""
+    },
+    {
+      title: "AI Tools 101: How to Use Google Gemini Like a Pro",
+      date: "2026-08-22",
+      organizer: "UpskillTechPH Training Services",
+      duration: "1 hr (via Google Meet)",
+      hours: 1,
+      topic: "AI",
+      summary: "A 1-hour, hands-on session on using Google Gemini well: a Goal-Context-Constraints-Format-Review framework for prompting, practical use cases like research and brainstorming, and a personal workflow for testing and refining prompts afterward.",
+      takeaways: [
+        "A prompt is stronger once it states the goal, the context, any constraints, and the format you want back - not just the question itself.",
+        "Gemini is as useful for narrowing down and comparing ideas as it is for generating new ones from scratch.",
+        "Treating a first prompt as a draft - checking the output, then refining and trying again - gets better results than expecting the first try to be right."
+      ],
+      certId: "ai-tools-101-gemini",
+      screenshots: [
+        "assets/seminars/gemini-call-1.jpg",
+        "assets/seminars/gemini-call-2.jpg",
+        "assets/seminars/gemini-call-3.jpg"
       ],
       link: ""
     }
