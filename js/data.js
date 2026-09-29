@@ -82,6 +82,18 @@ window.SITE = {
       topic: "Data",
       credentialId: "5152dba8b408dfa7b3f3cd0cedf5ab81",
       image: "assets/certs/database-101.jpg",
+      badge: "assets/certs/database-101-badge.png",
+      verifyUrl: ""                     // paste the link the QR code opens
+    },
+    {
+      id: "emerging-it-innovations",
+      title: "Learning Advocate 2026 Series: Emerging IT Innovations",
+      type: "Certificate of Participation",
+      issuer: "UpskillTechPH Training Services",
+      date: "2026-08-22",
+      topic: "AI",
+      credentialId: "33f05791a37cc627cb5cd6b488c25e2f",
+      image: "assets/certs/emerging-it-innovations.jpg",
       verifyUrl: ""                     // paste the link the QR code opens
     }
   ],
@@ -161,6 +173,27 @@ window.SITE = {
         "assets/seminars/db101-call-1.jpg",
         "assets/seminars/db101-call-2.jpg",
         "assets/seminars/db101-form-confirmation.jpg"
+      ],
+      link: ""
+    },
+    {
+      title: "Learning Advocate 2026 Series: Emerging IT Innovations",
+      date: "2026-08-22",
+      organizer: "UpskillTechPH Training Services",
+      duration: "1 hr (via Google Meet)",
+      hours: 1,
+      topic: "AI",
+      summary: "A 1-hour survey of emerging tech trends for beginners - from IoT devices that act on their own, to the Web1-to-Web3 shift, blockchain basics, and smart contracts.",
+      takeaways: [
+        "IoT isn't just 'smart gadgets' - it's devices quietly making small decisions for each other, like a thermostat reacting to you leaving the house.",
+        "The Web1 to Web3 framing (read, then read-and-write, then read-write-and-own) is a simple way to explain why blockchain matters to someone who's never touched it.",
+        "A smart contract is really just code that runs automatically once its conditions are met - the 'smart' part is the automation, not intelligence."
+      ],
+      certId: "emerging-it-innovations",
+      screenshots: [
+        "assets/seminars/it-innovations-call-1.jpg",
+        "assets/seminars/it-innovations-call-2.jpg",
+        "assets/seminars/it-innovations-call-3.jpg"
       ],
       link: ""
     }
