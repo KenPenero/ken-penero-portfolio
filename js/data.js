@@ -94,6 +94,7 @@ window.SITE = {
       topic: "AI",
       credentialId: "33f05791a37cc627cb5cd6b488c25e2f",
       image: "assets/certs/emerging-it-innovations.jpg",
+      badge: "assets/certs/emerging-it-innovations-badge.png",
       verifyUrl: ""                     // paste the link the QR code opens
     }
   ],
