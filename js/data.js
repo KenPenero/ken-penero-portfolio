@@ -106,6 +106,7 @@ window.SITE = {
       topic: "AI",
       credentialId: "d3c9b9d513acdbaa85f05e650ba9116d",
       image: "assets/certs/ai-tools-101-gemini.jpg",
+      badge: "assets/certs/ai-tools-101-gemini-badge.png",
       verifyUrl: ""                     // paste the link the QR code opens
     }
   ],
