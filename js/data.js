@@ -222,8 +222,8 @@ window.SITE = {
   ],
 
   contact: [
-    { label: "email",    value: "you@example.com",          href: "mailto:you@example.com" },
+    { label: "email",    value: "kenpenero0515@gmail.com", href: "mailto:kenpenero0515@gmail.com" },
     { label: "github",   value: "github.com/KenPenero",     href: "https://github.com/KenPenero" },
-    { label: "linkedin", value: "linkedin.com/in/your-name", href: "https://www.linkedin.com/" }
+    { label: "linkedin", value: "linkedin.com/in/ken-joseph-peñero", href: "https://www.linkedin.com/in/ken-joseph-pe%C3%B1ero-256797410" }
   ]
 };
