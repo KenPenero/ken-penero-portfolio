@@ -72,6 +72,17 @@ window.SITE = {
       topic: "Web",
       image: "assets/certs/hands-on-web-development.jpg",
       verifyUrl: ""
+    },
+    {
+      id: "database-101",
+      title: "Database 101: Data Storage, SQL and Query Optimization",
+      type: "Certificate of Participation",
+      issuer: "UpskillTechPH Training Services",
+      date: "2026-08-21",
+      topic: "Data",
+      credentialId: "5152dba8b408dfa7b3f3cd0cedf5ab81",
+      image: "assets/certs/database-101.jpg",
+      verifyUrl: ""                     // paste the link the QR code opens
     }
   ],
 
@@ -129,6 +140,28 @@ window.SITE = {
       ],
       certId: "digital-forensics",
       screenshots: [],
+      link: ""
+    },
+    {
+      title: "Database 101: Data Storage, SQL and Query Optimization",
+      date: "2026-08-21",
+      organizer: "UpskillTechPH Training Services",
+      duration: "2 hrs (via Google Meet)",
+      hours: 2,
+      topic: "Data",
+      summary: "A 2-hour webinar covering why spreadsheets break down as data grows, core database architecture, tables and primary keys, SQL vs. NoSQL, and speeding up queries with indexes.",
+      takeaways: [
+        "A spreadsheet and a database solve different problems - one is for looking at data, the other is for keeping it correct as more people touch it.",
+        "Primary keys and relationships are what let a database enforce rules a spreadsheet just has to trust you to follow.",
+        "Choosing SQL vs. NoSQL is really a question about the shape of the data and how it'll be queried, not which one is 'better'.",
+        "Indexes are the difference between a query that scans everything and one that goes straight to the answer."
+      ],
+      certId: "database-101",
+      screenshots: [
+        "assets/seminars/db101-call-1.jpg",
+        "assets/seminars/db101-call-2.jpg",
+        "assets/seminars/db101-form-confirmation.jpg"
+      ],
       link: ""
     }
   ],
