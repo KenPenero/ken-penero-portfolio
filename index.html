@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ken Penero | Learning Log</title>
+  <meta name="description" content="Ken Joseph Penero's learning log: certificates, seminars and webinars attended, and an IT journey in progress.">
+  <meta name="theme-color" content="#0a0e13">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@500;700&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+  <script>
+    document.documentElement.classList.add('js');
+    try {
+      var t = localStorage.getItem('theme');
+      if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
+    } catch (e) {}
+  </script>
+</head>
+<body>
+
+  <header class="titlebar">
+    <div class="dots" aria-hidden="true"><i></i><i></i><i></i></div>
+    <div class="path" id="path" aria-live="polite">ken@learning-log:~/home.md</div>
+    <button class="icon-btn" id="themeBtn" type="button" aria-label="Switch between dark and light theme" title="Toggle theme">
+      <span aria-hidden="true">&#9680;</span>
+    </button>
+  </header>
+
+  <div class="layout">
+
+    <aside class="explorer" aria-label="Site navigation">
+      <p class="explorer-title">EXPLORER</p>
+      <nav id="nav"></nav>
+      <div class="explorer-foot">
+        <span class="status-dot" aria-hidden="true"></span>
+        <span>learning in progress</span>
+      </div>
+    </aside>
+
+    <main id="main">
+
+      <!-- HOME -->
+      <section id="home" data-nav="home.md" data-ico="~">
+        <p class="prompt"><span class="ps1">$</span> whoami</p>
+        <h1 class="hero-name">Ken Joseph<br><span class="accent">Peñero</span></h1>
+        <p class="hero-role">
+          <span class="muted">// </span><span id="role" class="typed"></span><span class="caret" aria-hidden="true"></span>
+        </p>
+        <p class="hero-tag" id="tagline"></p>
+
+        <div class="hero-actions">
+          <a class="btn primary" href="#credentials">View credentials</a>
+          <a class="btn" href="#seminars">Read the seminar log</a>
+        </div>
+
+        <div class="stats" id="stats" aria-label="At a glance"></div>
+
+        <div class="about-grid">
+          <article class="panel">
+            <h2 class="panel-title"><span class="muted">cat</span> about.md</h2>
+            <div id="about"></div>
+            <dl class="facts" id="facts"></dl>
+          </article>
+          <article class="panel">
+            <h2 class="panel-title"><span class="muted">ls</span> skills/</h2>
+            <ul class="chips" id="skills"></ul>
+          </article>
+        </div>
+      </section>
+
+      <!-- CREDENTIALS -->
+      <section id="credentials" data-nav="credentials.json" data-ico="{}">
+        <header class="sec-head">
+          <p class="kicker">// 01</p>
+          <h2>Credentials</h2>
+          <p class="lede">Certificates and badges I've earned. Tap a card to see the full certificate; use the verify link to check it at the source.</p>
+        </header>
+
+        <div class="toolbar">
+          <div class="filters" id="filters" role="group" aria-label="Filter by topic"></div>
+          <label class="search">
+            <span class="sr-only">Search certificates</span>
+            <input type="search" id="search" placeholder="grep certificates..." autocomplete="off">
+          </label>
+        </div>
+
+        <div class="grid" id="certGrid"></div>
+        <p class="empty" id="certEmpty" hidden>No certificates match that filter.</p>
+      </section>
+
+      <!-- SEMINARS -->
+      <section id="seminars" data-nav="seminars.log" data-ico="&gt;_">
+        <header class="sec-head">
+          <p class="kicker">// 02</p>
+          <h2>Seminars &amp; Webinars</h2>
+          <p class="lede">A commit history of the sessions I've attended: what it was, who ran it, and what stuck with me.</p>
+        </header>
+        <div class="log-list" id="logList"></div>
+      </section>
+
+      <!-- JOURNEY -->
+      <section id="journey" data-nav="journey.md" data-ico="#">
+        <header class="sec-head">
+          <p class="kicker">// 03</p>
+          <h2>My IT Journey</h2>
+          <p class="lede">Where I started, where I am, and where I'm heading.</p>
+        </header>
+        <ol class="phases" id="phases"></ol>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" data-nav="contact.sh" data-ico="@">
+        <header class="sec-head">
+          <p class="kicker">// 04</p>
+          <h2>Get in touch</h2>
+          <p class="lede">Open to advice, collaborations, and recommendations for what to learn next.</p>
+        </header>
+        <div class="panel contact" id="contactList"></div>
+
+        <footer class="foot">
+          <span>&copy; <span id="year"></span> Ken Joseph Penero</span>
+          <a href="#home">exit 0 &uarr;</a>
+        </footer>
+      </section>
+
+    </main>
+  </div>
+
+  <dialog id="lightbox" aria-label="Image viewer">
+    <button class="lb-close" id="lbClose" type="button" aria-label="Close">&times;</button>
+    <button class="lb-nav prev" id="lbPrev" type="button" aria-label="Previous">&lsaquo;</button>
+    <figure>
+      <img id="lbImg" alt="">
+      <figcaption id="lbCap"></figcaption>
+    </figure>
+    <button class="lb-nav next" id="lbNext" type="button" aria-label="Next">&rsaquo;</button>
+  </dialog>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
