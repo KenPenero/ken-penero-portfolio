@@ -305,6 +305,16 @@ details[open] summary::before { content: "- "; }
 .takeaways { margin-top: 10px; display: grid; gap: 6px; font-size: 13.5px; }
 .takeaways li { position: relative; padding-left: 20px; }
 .takeaways li::before { content: ">"; position: absolute; left: 0; color: var(--accent); font-weight: 700; }
+.reflection {
+  margin-top: 14px; padding: 14px 18px; border-left: 3px solid var(--accent);
+  background: var(--panel-2); border-radius: 0 8px 8px 0;
+}
+.reflection-label {
+  display: block; font-family: var(--mono); font-size: 11px; letter-spacing: .08em;
+  text-transform: uppercase; color: var(--accent); margin-bottom: 6px;
+}
+.reflection p { font-size: 14.5px; line-height: 1.65; color: var(--text); font-style: italic; }
+.reflection p + p { margin-top: 8px; }
 .shots { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 14px; }
 .shots button {
   width: 96px; aspect-ratio: 4 / 3; padding: 0; border-radius: 6px; overflow: hidden;

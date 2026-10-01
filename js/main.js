@@ -221,6 +221,7 @@
           <div class="log-meta"><span>by ${esc(s.organizer)}</span><span>${esc(s.duration)}</span><span class="tag">${esc(s.topic)}</span></div>
           <p class="log-summary">${esc(s.summary)}</p>
           ${s.takeaways && s.takeaways.length ? `<details><summary>key takeaways</summary><ul class="takeaways">${s.takeaways.map((t) => `<li>${esc(t)}</li>`).join("")}</ul></details>` : ""}
+          ${s.reflection ? `<div class="reflection"><span class="reflection-label">// reflection</span>${s.reflection.split("\n\n").map((p) => `<p>${esc(p)}</p>`).join("")}</div>` : ""}
           ${shots ? `<div class="shots">${shots}</div>` : ""}
           ${cert || s.link ? `<div class="log-actions">
             ${cert ? `<button class="btn small" type="button" data-cert="${esc(cert.id)}">View certificate</button>` : ""}

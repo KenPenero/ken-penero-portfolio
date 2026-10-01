@@ -125,6 +125,7 @@ window.SITE = {
         "A lot of AI risk comes down to what the model can be tricked into doing with the wrong input, not just how it's hosted.",
         "Treating AI output as something to verify, not trust outright, is a habit worth building early."
       ],
+      reflection: "Going in, I thought 'securing AI' basically meant securing a server with extra steps. What stuck with me instead was how much of the actual risk lives in the prompt layer - what the model is told to trust, and what it's allowed to act on. The segment on prompt injection reframed how I think about any system that takes in outside content: treat it as untrusted by default, keep instructions and data separate, and never let a model's output trigger something important without a human or a hard check in between. I came away less interested in 'is the AI smart' and more interested in 'what happens if someone feeds it something it shouldn't trust' - a much more useful question.",
       certId: "securing-ai-101",
       screenshots: [
         "assets/seminars/securing-ai-call-1.jpg",
@@ -148,6 +149,7 @@ window.SITE = {
         "Structure first, then style, then behavior - building in that order keeps a page from turning into a mess.",
         "Watching a page get built live made concepts like the DOM and CSS layout click faster than reading about them alone."
       ],
+      reflection: "I'd written HTML and CSS before, but mostly by copying patterns I didn't fully understand. Watching the page get built live, tag by tag, was what finally made the structure-style-behavior split click - seeing exactly which problem each layer was solving instead of guessing. There's a specific moment I keep coming back to: when the instructor built the layout with plain CSS before touching JavaScript, which made it obvious how much of a 'broken' page is actually a styling problem, not a logic one. It's a small lesson, but it changed the order I debug things in now - style first, then behavior, instead of jumping straight to scripts when something looks wrong.",
       certId: "web-dev-html-css-js",
       screenshots: [
         "assets/seminars/webdev-call-1.jpg",
@@ -169,6 +171,7 @@ window.SITE = {
         "Evidence isn't just on one device - desktops, phones, networks and cloud accounts all leave their own trail.",
         "Spotting that something malicious happened is only step one; tracing it back to a root cause is where the real work is."
       ],
+      reflection: "This one slowed me down in a good way. I went in expecting a session about tools - recovering files, cracking passwords - and most of it turned out to be about discipline: how you preserve, document and move evidence so that what you found still means something later. The idea of a clean chain of custody is simple to state and apparently very easy to break in practice, which is probably why it got so much attention. It also reset how I think about 'an incident' - it's rarely one device. A phone, a laptop and a cloud account can each tell a different part of the same story, and forensics is the slow work of lining those stories up rather than finding one smoking-gun file.",
       certId: "digital-forensics",
       screenshots: [],
       link: ""
@@ -187,6 +190,7 @@ window.SITE = {
         "Choosing SQL vs. NoSQL is really a question about the shape of the data and how it'll be queried, not which one is 'better'.",
         "Indexes are the difference between a query that scans everything and one that goes straight to the answer."
       ],
+      reflection: "The spreadsheet-versus-database comparison sounds obvious once you hear it, but I hadn't actually thought about why a spreadsheet starts to fall apart once more than one person touches it - it's not a size problem, it's a rules problem. Primary keys and relationships are the rules a database enforces automatically that a spreadsheet just hopes you remember. The part that'll actually change how I build things is indexing: I'd been treating 'the query is slow' as something to fix by rewriting the query, when a lot of the time the real fix is deciding in advance what you'll be searching by. SQL versus NoSQL also stopped being an abstract debate once it was framed as a question about the shape of the data rather than which one is objectively better.",
       certId: "database-101",
       screenshots: [
         "assets/seminars/db101-call-1.jpg",
@@ -208,6 +212,7 @@ window.SITE = {
         "The Web1 to Web3 framing (read, then read-and-write, then read-write-and-own) is a simple way to explain why blockchain matters to someone who's never touched it.",
         "A smart contract is really just code that runs automatically once its conditions are met - the 'smart' part is the automation, not intelligence."
       ],
+      reflection: "This session was more of a map than a deep dive, and I think that's exactly what made it useful - it gave me a way to place a handful of terms I'd heard separately (IoT, Web3, blockchain, smart contracts) into one timeline instead of treating them as unrelated buzzwords. The Web1-to-Web3 framing - read, then read-and-write, then read-write-and-own - is the kind of simple structure I can actually explain to someone else, which is usually my test for whether I've understood something or just recognized it. The smart contract explanation also quietly corrected something I'd been assuming: the 'smart' part isn't some hidden intelligence, it's just code that runs automatically once its conditions are met. Less magic than I expected, which made it easier to take seriously.",
       certId: "emerging-it-innovations",
       screenshots: [
         "assets/seminars/it-innovations-call-1.jpg",
@@ -229,6 +234,7 @@ window.SITE = {
         "Gemini is as useful for narrowing down and comparing ideas as it is for generating new ones from scratch.",
         "Treating a first prompt as a draft - checking the output, then refining and trying again - gets better results than expecting the first try to be right."
       ],
+      reflection: "I'd used Gemini before this, but mostly the way I'd use a search bar - type a short question, take whatever came back. The Goal-Context-Constraints-Format-Review framework is a small thing to remember but it's already changed how I write prompts: stating the goal and the format I want up front gets me a usable answer on the first or second try instead of the fifth. The bigger shift was the use-case section - seeing Gemini used to narrow down and compare options rather than just generate new ones reframed it as something closer to a thinking partner than an answer machine. I left treating 'the first response wasn't great' as a reason to refine the prompt, not a reason to give up on the tool.",
       certId: "ai-tools-101-gemini",
       screenshots: [
         "assets/seminars/gemini-call-1.jpg",
