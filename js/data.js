@@ -83,7 +83,7 @@ window.SITE = {
       credentialId: "5152dba8b408dfa7b3f3cd0cedf5ab81",
       image: "assets/certs/database-101.jpg",
       badge: "assets/certs/database-101-badge.png",
-      verifyUrl: ""                     // paste the link the QR code opens
+      verifyUrl: "https://upskilltechph.com/verify?id=5152dba8b408dfa7b3f3cd0cedf5ab81"
     },
     {
       id: "emerging-it-innovations",
@@ -95,7 +95,7 @@ window.SITE = {
       credentialId: "33f05791a37cc627cb5cd6b488c25e2f",
       image: "assets/certs/emerging-it-innovations.jpg",
       badge: "assets/certs/emerging-it-innovations-badge.png",
-      verifyUrl: ""                     // paste the link the QR code opens
+      verifyUrl: "https://upskilltechph.com/verify?id=33f05791a37cc627cb5cd6b488c25e2f"
     },
     {
       id: "ai-tools-101-gemini",
@@ -107,7 +107,7 @@ window.SITE = {
       credentialId: "d3c9b9d513acdbaa85f05e650ba9116d",
       image: "assets/certs/ai-tools-101-gemini.jpg",
       badge: "assets/certs/ai-tools-101-gemini-badge.png",
-      verifyUrl: ""                     // paste the link the QR code opens
+      verifyUrl: "https://upskilltechph.com/verify?id=d3c9b9d513acdbaa85f05e650ba9116d"
     }
   ],
 
