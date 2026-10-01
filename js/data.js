@@ -135,6 +135,43 @@ window.SITE = {
 
   seminars: [
     {
+      title: "Introduction to Modern AI",
+      date: "2026-09-20",
+      organizer: "Cisco Networking Academy",
+      duration: "6 hrs (self-paced)",
+      hours: 6,
+      topic: "AI",
+      summary: "A 6-hour self-paced Cisco Networking Academy course on how modern AI systems work and how to get useful, reliable results out of them - with a strong focus on writing effective prompts for AI chatbots.",
+      takeaways: [
+        "A lot of 'AI doesn't work for me' complaints are really prompt problems - being specific about the goal and the format changes the output more than switching tools does.",
+        "Modern AI tools are good at some things and confidently wrong about others, so treating the output as a draft to check is a safer default than treating it as a finished answer.",
+        "Seeing concrete, everyday examples of generative AI in use made the whole subject feel a lot less abstract than it did going in."
+      ],
+      reflection: "I went into this expecting a repeat of things I'd already picked up from using AI tools casually, and it mostly wasn't. The course was less about what AI can theoretically do and more about the gap between a lazy prompt and a useful one - and how much of that gap is on the person typing, not the model. It paired well with an AI Tools 101 session I'd taken earlier the same month; this one filled in more of the 'why' behind the prompting habits that session taught as practical steps. If anything, it made me more comfortable treating AI output as something to question rather than something to accept, which feels like the right default to build early.",
+      certId: "intro-to-modern-ai",
+      screenshots: [],
+      link: ""
+    },
+    {
+      title: "Introduction to Cybersecurity",
+      date: "2026-09-14",
+      organizer: "Cisco Networking Academy",
+      duration: "6 hrs (self-paced)",
+      hours: 6,
+      topic: "Cybersecurity",
+      summary: "A 6-hour self-paced Cisco Networking Academy course covering cybersecurity fundamentals: common threats and attack types, protecting personal data and privacy online, how organizations defend their systems, and an overview of cybersecurity as a career path.",
+      takeaways: [
+        "Most of the 'hacking' concepts covered came down to a handful of repeating attack patterns - phishing, malware, social engineering - rather than anything exotic.",
+        "Protecting personal data online is less about one big fix and more about a stack of small habits: unique passwords, checking app permissions, being skeptical of unsolicited messages.",
+        "Organizations defend data in layers - policy, people and technology all have to hold up together, not just whatever firewall or antivirus is installed.",
+        "Cybersecurity turned out to be a wider career field than 'attacker vs. defender' - there's room for people drawn to policy, to investigation, or to building the tools themselves."
+      ],
+      reflection: "This was my first formal cybersecurity course, and it worked well as a map before the deeper dive I got later from the Digital Forensics and Securing AI sessions - a lot of the vocabulary and threat categories introduced here showed up again in both. What stuck with me most was how unglamorous good security habits actually are: it's rarely one dramatic fix, it's a lot of small, boring, consistent choices stacked on top of each other. I also hadn't seriously considered cybersecurity as a specific career lane before this - the course's overview of the different roles in the field gave me a clearer sense of where my own interests (closer to the technical/investigative side than the policy side) might fit.",
+      certId: "intro-to-cybersecurity",
+      screenshots: [],
+      link: ""
+    },
+    {
       title: "Securing AI 101",
       date: "2026-08-28",
       organizer: "BlackStride Cyber",
