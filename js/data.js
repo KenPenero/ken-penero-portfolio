@@ -28,8 +28,8 @@ window.SITE = {
     handle: "ken",
     program: "BSIT",
     section: "4D",
-    school: "Your University",          // <- replace
-    location: "City, Philippines",      // <- replace
+    school: "Partido State University",
+    location: "Danlog, San Jose, Camarines Sur",
     tagline: "Learning beyond the classroom, and keeping receipts.",
     roles: ["IT student", "web builder", "lifelong learner", "problem solver"],
     about: [
