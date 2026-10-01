@@ -108,6 +108,28 @@ window.SITE = {
       image: "assets/certs/ai-tools-101-gemini.jpg",
       badge: "assets/certs/ai-tools-101-gemini-badge.png",
       verifyUrl: "https://upskilltechph.com/verify?id=d3c9b9d513acdbaa85f05e650ba9116d"
+    },
+    {
+      id: "intro-to-cybersecurity",
+      title: "Introduction to Cybersecurity",
+      type: "Digital Badge",
+      issuer: "Cisco Networking Academy",
+      date: "2026-09-14",
+      topic: "Cybersecurity",
+      credentialId: "fd3f6353-49fe-4065-bf24-7c129cd3b569",
+      image: "assets/certs/intro-to-cybersecurity.png",
+      verifyUrl: "https://www.credly.com/badges/fd3f6353-49fe-4065-bf24-7c129cd3b569"
+    },
+    {
+      id: "intro-to-modern-ai",
+      title: "Introduction to Modern AI",
+      type: "Digital Badge",
+      issuer: "Cisco Networking Academy",
+      date: "2026-09-20",
+      topic: "AI",
+      credentialId: "a1fe5bc9-47b5-44ee-8c23-cb4080c39572",
+      image: "assets/certs/intro-to-modern-ai.png",
+      verifyUrl: "https://www.credly.com/badges/a1fe5bc9-47b5-44ee-8c23-cb4080c39572"
     }
   ],
 
