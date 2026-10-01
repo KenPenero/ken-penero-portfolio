@@ -126,7 +126,13 @@ window.SITE = {
         "Treating AI output as something to verify, not trust outright, is a habit worth building early."
       ],
       certId: "securing-ai-101",
-      screenshots: [],                  // e.g. ["assets/seminars/securing-ai-1.png"]
+      screenshots: [
+        "assets/seminars/securing-ai-call-1.jpg",
+        "assets/seminars/securing-ai-call-2.jpg",
+        "assets/seminars/securing-ai-call-3.jpg",
+        "assets/seminars/securing-ai-call-4.jpg",
+        "assets/seminars/securing-ai-call-5.jpg"
+      ],
       link: ""
     },
     {
