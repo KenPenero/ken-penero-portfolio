@@ -50,7 +50,7 @@ window.SITE = {
       credentialId: "7cfaa289-d4de-4a97-a9a6-e82ff5eb4611",
       image: "assets/certs/securing-ai-101.jpg",
       badge: "assets/certs/securing-ai-101-badge.png",
-      verifyUrl: ""                     // paste the link the QR code opens
+      verifyUrl: "https://credsverse.com/credentials/7cfaa289-d4de-4a97-a9a6-e82ff5eb4611"
     },
     {
       id: "digital-forensics",
